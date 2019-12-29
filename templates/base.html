@@ -4,15 +4,35 @@
 	<head>
 		<title>CSloopED Blog</title>
 		<link href="{% static 'css/base.css' %}" rel="stylesheet">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Articles</li>
+		</ul>
 	</head>
 
-	<body>
 		<header>
 			<h1><a href="{% url 'home' %}">CSloopED Blog</a></h1>
 		</header>
-		<div>
+		
+		<div class="hero-image">
+			<div class="hero-text">
+				<h1>I am Robert</h1>
+			</div>
+		</div>
+
+	<body>
+		<div id="content">
 			{% block content %}
 			{% endblock content %}
 		</div>
+
 	</body>
+
+	<footer>
+		<ul>
+			<li><a href="">Twitter</a></li>
+			<li><a href="">Github</a></li>
+		</ul>
+	</footer>
 </html>
