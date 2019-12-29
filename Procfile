@@ -1,2 +1,2 @@
-web: guinicorn csloop_project.wsgi --log-file -
+web: gunicorn csloop_project.wsgi --log-file -
 
