@@ -6,6 +6,6 @@ CSloop is a website that aims at giving a framework to new Computer Science stud
 [CSloop.io](http://www.csloop.io)
 
 ## Task List
--[ ] Create about page
--[ ] Link Github
--[ ] Write 2nd Blog post
+- [ ] Create about page
+- [ ] Link Github
+- [ ] Write 2nd Blog post
